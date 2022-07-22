@@ -1,0 +1,133 @@
+
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.head{
+  margin: 2rem;
+  padding: 1rem 20rem;
+  background: #4f005f;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  border-radius: 5px;
+  color: white;
+  font-size: larger;
+  font-weight: 900;
+}
+.inner_box{
+    background: white;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+   width: 500px;
+   height: 250px;
+   padding: 1rem;
+}
+.customfile::-webkit-file-upload-button {
+  visibility: hidden;
+}
+
+  .customfile::before {
+    content: 'Select some files';
+    display: inline-block;
+    border: 1px solid #999;
+    border-radius: 3px;
+    padding: 5px 8px;
+    outline: none;
+    white-space: nowrap;
+    cursor: pointer;
+    text-shadow: 1px 1px #fff;
+    font-weight: 700;
+    font-size: 10pt;
+  }
+  .customfile:hover::before {
+    border-color: black;
+  }
+  .customfile:active::before {
+    background: -webkit-linear-gradient to left(right, #e3e3e3, #f9f9f9);
+  } 
+ .customfile{
+    border: 1px solid black;
+    width: 100%;
+    padding: .3rem;
+    font-weight: 400;
+}
+.name{
+    width: 45%;
+    padding: .3rem;
+}
+.line-2{
+    display: flex;
+    justify-content: space-between;
+}
+
+input {
+flex: 3;
+padding: 0.35rem 0.35rem;
+border-radius: 6px;
+border: 1px solid #ccc;
+}
+
+input:focus {
+    outline: none;
+    border-color: #4f005f;
+    background: #f6dbfc;
+  }
+
+.mar{
+    margin: .8rem 2rem;
+}
+.description{
+    width: 100%;
+    padding: .3rem;
+}
+.post{
+    display: flex;
+    justify-content: center;
+}
+.bt{
+    padding: .3rem 1rem;
+    font-size: large;
+    font-weight: 500;
+    background-color: rgb(38, 38, 186);
+    color: white;
+    border-radius: 5px;
+}
+.bt:hover{
+    background-color: rgb(33, 33, 164);
+}
+.bt:active{
+    background-color: rgb(43, 43, 199);
+}
+.bt {
+    font: inherit;
+    border: 1px solid #4f005f;
+    background: #4f005f;
+    color: white;
+    padding: 0.75rem 3.5rem;
+    cursor: pointer;
+    font-size: 1.15rem;
+    border-radius: 30px;
+  }
+  
+.bt:hover,
+.bt:active {
+  background: #741188;
+  border-color: #741188;
+}
+
+.bt:focus {
+  outline: none;
+}
+
+button:disabled,
+button:focus:disabled,
+button:hover:disabled,
+button:active:disabled {
+  background: #ccc;
+  border-color: #ccc;
+  color: #666666;
+  cursor: not-allowed;
+}

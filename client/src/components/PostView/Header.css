@@ -1,0 +1,33 @@
+
+.header{
+    
+    margin-bottom: 10px;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background-color: #fff;
+}
+.img{
+    display: flex;
+    height: 80px;
+    justify-content: space-between;
+    align-items: center;
+}
+.space{
+    height: 45px;
+}
+.img-1{
+    width:20rem;
+    margin-left:10em ;
+    margin-bottom: 2px;
+}
+.img-2{
+    width:3rem;
+    margin-right: 12em;
+}
+.line{
+    margin-top: 15px;
+    height: 1px;
+    background-color: green;
+    
+}
